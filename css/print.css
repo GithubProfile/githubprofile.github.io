@@ -1,9 +1,6 @@
-a:link:after, a:visited:after {
-    content: attr(href);
+ol:first-of-type a:link:after, ol:first-of-type a:visited:after {
+    content: "[" attr(href) "]";
 }
 img {
     display: none;
-}
-h2:nth-child(1) + ol a:link:after, h2:nth-child(1) + ol a:visited:after {
-    content: "";
 }

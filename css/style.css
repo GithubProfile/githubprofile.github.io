@@ -39,13 +39,14 @@ a:hover {
 }
 
 ol {
-  list-style: katakana;
+  list-style: hiragana;
   padding-left: 0;
   margin-bottom: 0;
 }
 
 ol:first-of-type {
   border-bottom: 1px solid #24404C;
+  list-style: katakana;
 }
 
 li {

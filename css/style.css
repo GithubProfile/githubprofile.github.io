@@ -52,10 +52,18 @@ ol:first-of-type {
 li {
   margin: .83em 1.875em;
 }
+img {
+  width: 149px;
+  height: 149px;
+}
 
 @media (max-width: 30em), (max-device-width: 30em) { /* 480px */
   html {
     font-size: 90%;
+  }
+  img {
+    width: 74px;
+    height: 74px;
   }
 }
 

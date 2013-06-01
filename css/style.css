@@ -57,13 +57,15 @@ img {
   height: 149px;
 }
 
-@media (max-width: 30em), (max-device-width: 30em) { /* 480px */
-  html {
-    font-size: 90%;
-  }
+@media (max-width: 750px), (max-device-width: 750px) {
   img {
     width: 74px;
     height: 74px;
+  }
+}
+@media (max-width: 30em), (max-device-width: 30em) { /* 480px */
+  html {
+    font-size: 90%;
   }
 }
 

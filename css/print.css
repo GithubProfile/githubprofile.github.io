@@ -1,6 +1,7 @@
-ol:first-of-type a:link:after, ol:first-of-type a:visited:after {
-    content: "[" attr(href) "]";
-}
 img {
     display: none;
+}
+
+ol:first-of-type a:after {
+    content: " - "attr(href);
 }

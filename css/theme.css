@@ -1,0 +1,16 @@
+html {
+    background: #355664;
+}
+body {
+    color: #fcfcfc;
+}
+h1, h2 {
+    font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+    text-shadow: 0 1px 1px black;
+}
+h1 {
+    border-bottom: 1px solid #24404C;
+}
+h2 {
+    border-top: 1px solid #416371;
+}

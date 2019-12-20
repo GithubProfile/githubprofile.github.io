@@ -1,3 +1,4 @@
+/*! Copyright (c) 2013 Denys Petiukov. License: MIT. */
 (function(){
     var olFirstOfType = document.getElementsByTagName('ol')[0];
         olFirstOfType.style.borderBottom = '1px solid #24404C';
